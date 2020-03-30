@@ -33,7 +33,7 @@ html header .barnav, body header .barnav {
   background-color: #2C5F7E;
 }
 
-html header .barnav .button-barnav, body header .barnav .button-barnav {
+html header .barnav .button-barnav, html header .barnav .button-barnav2, body header .barnav .button-barnav, body header .barnav .button-barnav2 {
   margin: 20px;
   background: #E7A78B;
   color: white;
@@ -47,8 +47,12 @@ html header .barnav .button-barnav, body header .barnav .button-barnav {
   overflow: hidden;
 }
 
-html header .barnav .button-barnav:hover, body header .barnav .button-barnav:hover {
+html header .barnav .button-barnav:hover, html header .barnav .button-barnav2:hover, body header .barnav .button-barnav:hover, body header .barnav .button-barnav2:hover {
   background: #EE7C41;
   cursor: pointer;
+}
+
+html header .barnav .button-barnav2, body header .barnav .button-barnav2 {
+  background-color: #EE7C41;
 }
 /*# sourceMappingURL=styles.css.map */
