@@ -20,4 +20,30 @@ html header .logo, body header .logo {
   width: 157px;
   height: 53px;
 }
+
+html header .barnav, body header .barnav {
+  width: 100%;
+  margin-right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-color: #2C5F7E;
+}
+
+html header .barnav .button-barnav, body header .barnav .button-barnav {
+  margin: 20px;
+  background: #E7A78B;
+  color: white;
+  width: 116px;
+  height: 34px;
+  border: 3px solid #EE7C41;
+  font-size: 15px;
+  border-radius: 5px;
+  -webkit-transition: .6s;
+  transition: .6s;
+  overflow: hidden;
+}
 /*# sourceMappingURL=styles.css.map */
