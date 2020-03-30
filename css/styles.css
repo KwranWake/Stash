@@ -1,1 +1,23 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html header, body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #2C5F7E;
+  height: 89px;
+  width: 100%;
+}
+
+html header .logo, body header .logo {
+  margin-left: 20px;
+  width: 157px;
+  height: 53px;
+}
+/*# sourceMappingURL=styles.css.map */

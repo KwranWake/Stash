@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AIAA,AAAA,IAAI,EAAE,IAAI,CAAC;EACP,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CAWiB;;AAb/B,AAII,IAJA,CAIA,MAAM,EAJJ,IAAI,CAIN,MAAM,CAAC;EACH,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,gBAAgB,EHFf,OAAO;EGGR,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;CAIU;;AAb7B,AAUQ,IAVJ,CAIA,MAAM,CAMF,KAAK,EAVP,IAAI,CAIN,MAAM,CAMF,KAAK,CAAC;EACF,WAAW,EAAE,IAAI;EACjB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,IAAI;CAAG",
     "sources": [
         "styles.sass",
+        "../sass/_variables.sass",
         "../sass/_aside.sass",
         "../sass/_footer.sass",
         "../sass/_header.sass",
