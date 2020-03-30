@@ -1,0 +1,32 @@
+.header {
+    height: 89px;
+    width: 100%;
+    background-color: #2C5F7E;
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+.main {
+    display: flex;
+}
+
+.aside {
+    height: 632px;
+    width: 388px ;
+    background-color: #54B8C8;
+    margin 0%;
+    padding: 0%;
+}
+
+.section {
+    height: 632px;
+    width: 100%;
+    background-color: #1E4051;
+
+}
+
+.footer {
+    display: flex;
+    background-color: #EE7C41;
+}
