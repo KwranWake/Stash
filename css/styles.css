@@ -46,4 +46,9 @@ html header .barnav .button-barnav, body header .barnav .button-barnav {
   transition: .6s;
   overflow: hidden;
 }
+
+html header .barnav .button-barnav:hover, body header .barnav .button-barnav:hover {
+  background: #EE7C41;
+  cursor: pointer;
+}
 /*# sourceMappingURL=styles.css.map */
