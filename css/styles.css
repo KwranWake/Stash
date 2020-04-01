@@ -15,7 +15,7 @@ html .aside, body .aside {
       -ms-flex-align: center;
           align-items: center;
   height: 633px;
-  width: 387px;
+  width: 75%;
   background-color: #54B8C8;
   margin: 0;
   padding: 0;
@@ -127,8 +127,20 @@ html header .barnav .button-barnav2, body header .barnav .button-barnav2 {
   background-color: #EE7C41;
 }
 
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 html, body {
   margin: 0;
   padding: 0;
+}
+
+html .ilustracionhome, body .ilustracionhome {
+  margin: 0;
+  height: 633px;
+  width: 100%;
 }
 /*# sourceMappingURL=styles.css.map */
