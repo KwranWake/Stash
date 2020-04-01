@@ -16,16 +16,27 @@ html, body
             color: white
             font-family: Arial, Helvetica, sans-serif
             font-size: xx-large
-            margin-left: 20px 
+            margin-left: 20px
+            text-align: center
+            margin-right: 20px
+            text-shadow: 2px 2px $azul3 
         .parrafo
             @extend .textoprincipal
             font-size: medium
+            text-shadow: none
         .parrafo2
-            @extend .textoprincipal
-            font-size: medium
+            @extend .parrafo
+        .parrafo3
+            @extend .parrafo
+            margin-top: 50px
+            font-size: 20px
+            text-decoration-line:
+        .parrafo4
+            @extend .parrafo3
+            margin-top: -10px 
         .button-aside
-            @include buttons
-            
+            @include buttonprin
+             
                 
        
            

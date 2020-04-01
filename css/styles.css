@@ -21,29 +21,38 @@ html .aside, body .aside {
   padding: 0;
 }
 
-html .aside .textoprincipal, html .aside .parrafo, html .aside .parrafo2, body .aside .textoprincipal, body .aside .parrafo, body .aside .parrafo2 {
+html .aside .textoprincipal, html .aside .parrafo, html .aside .parrafo2, html .aside .parrafo3, html .aside .parrafo4, body .aside .textoprincipal, body .aside .parrafo, body .aside .parrafo2, body .aside .parrafo3, body .aside .parrafo4 {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: xx-large;
   margin-left: 20px;
+  text-align: center;
+  margin-right: 20px;
+  text-shadow: 2px 2px #2C5F7E;
 }
 
-html .aside .parrafo, body .aside .parrafo {
+html .aside .parrafo, html .aside .parrafo2, html .aside .parrafo3, html .aside .parrafo4, body .aside .parrafo, body .aside .parrafo2, body .aside .parrafo3, body .aside .parrafo4 {
   font-size: medium;
+  text-shadow: none;
 }
 
-html .aside .parrafo2, body .aside .parrafo2 {
-  font-size: medium;
+html .aside .parrafo3, html .aside .parrafo4, body .aside .parrafo3, body .aside .parrafo4 {
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+html .aside .parrafo4, body .aside .parrafo4 {
+  margin-top: -10px;
 }
 
 html .aside .button-aside, body .aside .button-aside {
   margin: 20px;
-  background: #E7A78B;
+  background: #EE7C41;
   color: white;
-  width: 116px;
-  height: 34px;
+  width: 150px;
+  height: 50px;
   border: 3px solid #EE7C41;
-  font-size: 15px;
+  font-size: 17px;
   border-radius: 5px;
   -webkit-transition: .6s;
   transition: .6s;
