@@ -69,6 +69,46 @@ html, body {
   padding: 0;
 }
 
+html footer, body footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 0;
+  width: 100%;
+  height: 150px;
+  background-color: #2C5F7E;
+}
+
+html footer .infolist, body footer .infolist {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin-left: 20px;
+}
+
+html footer .icons, body footer .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 300px;
+  margin-right: 20px;
+  padding: 0;
+  color: white;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 html header, body header {
   display: -webkit-box;
   display: -ms-flexbox;
