@@ -126,4 +126,9 @@ html header .barnav .button-barnav:hover, html header .barnav .button-barnav2:ho
 html header .barnav .button-barnav2, body header .barnav .button-barnav2 {
   background-color: #EE7C41;
 }
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
 /*# sourceMappingURL=styles.css.map */
