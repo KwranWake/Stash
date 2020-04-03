@@ -1,3 +1,81 @@
+.overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.overlay .popup {
+  background: #54B8C8;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  text-align: center;
+  width: 600px;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.overlay .popup .boton-cerrar {
+  font-size: 16px;
+  line-height: 16px;
+  display: block;
+  text-align: right;
+  color: #bbbbbb;
+  -webkit-transition: .3 ease all;
+  transition: .3 ease all;
+}
+
+.overlay .popup .boton-cerrar:hover {
+  color: #2C5F7E;
+}
+
+.overlay .popup form .cont-inputs input {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  border: 1px solid #bbbbbb;
+}
+
+.overlay .popup form .boton-submit, .overlay .popup form .boton-submit2 {
+  margin: 20px;
+  background: #E7A78B;
+  color: white;
+  width: 116px;
+  height: 34px;
+  border: 3px solid #EE7C41;
+  font-size: 15px;
+  border-radius: 5px;
+  -webkit-transition: .6s;
+  transition: .6s;
+  overflow: hidden;
+}
+
+.overlay .popup form .boton-submit:hover, .overlay .popup form .boton-submit2:hover {
+  background: #EE7C41;
+  cursor: pointer;
+}
+
+.overlay .popup form .boton-submit2 {
+  background-color: #EE7C41;
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -151,11 +229,6 @@ html header .barnav .button-barnav, html header .barnav .button-barnav2, body he
   -webkit-transition: .6s;
   transition: .6s;
   overflow: hidden;
-}
-
-html header .barnav .button-barnav:hover, html header .barnav .button-barnav2:hover, body header .barnav .button-barnav:hover, body header .barnav .button-barnav2:hover {
-  background: #EE7C41;
-  cursor: pointer;
 }
 
 html header .barnav .button-barnav:hover, html header .barnav .button-barnav2:hover, body header .barnav .button-barnav:hover, body header .barnav .button-barnav2:hover {
