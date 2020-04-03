@@ -14,9 +14,14 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  visibility: hidden;
 }
 
-.overlay .popup {
+.overlay.active {
+  visibility: visible;
+}
+
+.overlay.active .popup {
   background: #54B8C8;
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
           box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
@@ -25,12 +30,13 @@
   padding: 20px;
   text-align: center;
   width: 600px;
+  color: white;
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
-.overlay .popup .boton-cerrar {
+.overlay.active .popup .boton-cerrar {
   font-size: 16px;
   line-height: 16px;
   display: block;
@@ -40,11 +46,11 @@
   transition: .3 ease all;
 }
 
-.overlay .popup .boton-cerrar:hover {
+.overlay.active .popup .boton-cerrar:hover {
   color: #2C5F7E;
 }
 
-.overlay .popup form .cont-inputs input {
+.overlay.active .popup form .cont-inputs input {
   width: 100%;
   margin-bottom: 20px;
   height: 50px;
@@ -53,7 +59,7 @@
   border: 1px solid #bbbbbb;
 }
 
-.overlay .popup form .boton-submit, .overlay .popup form .boton-submit2 {
+.overlay.active .popup form .boton-submit, .overlay.active .popup form .boton-submit2 {
   margin: 20px;
   background: #E7A78B;
   color: white;
@@ -67,12 +73,12 @@
   overflow: hidden;
 }
 
-.overlay .popup form .boton-submit:hover, .overlay .popup form .boton-submit2:hover {
+.overlay.active .popup form .boton-submit:hover, .overlay.active .popup form .boton-submit2:hover {
   background: #EE7C41;
   cursor: pointer;
 }
 
-.overlay .popup form .boton-submit2 {
+.overlay.active .popup form .boton-submit2 {
   background-color: #EE7C41;
 }
 
