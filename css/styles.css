@@ -22,7 +22,8 @@
 }
 
 .overlay.active .popup {
-  background: #54B8C8;
+  background-image: url(./../Recursos/backgroundpopup.png);
+  background-size: 640px 404px;
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
           box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
   border-radius: 3px;
@@ -41,13 +42,13 @@
   line-height: 16px;
   display: block;
   text-align: right;
-  color: #bbbbbb;
+  color: #EE7C41;
   -webkit-transition: .3 ease all;
   transition: .3 ease all;
 }
 
 .overlay.active .popup .boton-cerrar:hover {
-  color: #2C5F7E;
+  color: white;
 }
 
 .overlay.active .popup form .cont-inputs input {
