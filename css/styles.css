@@ -248,6 +248,16 @@ html header .barnav .button-barnav2, body header .barnav .button-barnav2 {
   background-color: #EE7C41;
 }
 
+@media only screen and (min-width: 768px) {
+  html header, body header {
+    background-color: #2C5F7E;
+  }
+  html header .logo, body header .logo {
+    width: 134px;
+    height: 45px;
+  }
+}
+
 main {
   display: -webkit-box;
   display: -ms-flexbox;
