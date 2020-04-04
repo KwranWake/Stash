@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stash</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/styles.css">
+    <script src="js/jquery-1.7.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
     <script src="https://kit.fontawesome.com/246c6db8f4.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -63,11 +66,51 @@
         </section>
 
     </main>
-    
-        <div id="slider" class="slider">
-            <input type="radio" name="slider" id="slide1" checked>
-            <img class="pasos" src="/Recursos/paso1.png" alt="P1" height="600px" width="auto">
+
+    <div class="container">
+	
+
+        <input type="radio" id="i1" name="images" checked/>
+        <input type="radio" id="i2" name="images" />
+        <input type="radio" id="i3" name="images" />
+        <input type="radio" id="i4" name="images"  />
+        
+        <div class="slide_img" id="one">			
+                <img src="./Recursos/paso1.png">         	
         </div>
+        
+        <div class="slide_img" id="two">          
+                <img src="./Recursos/paso2.png" >   
+        </div>
+                
+        <div class="slide_img" id="three">
+                <img src="./Recursos/paso3.png">	
+        </div>
+    
+    
+        <div class="slide_img" id="four">
+                <img src="./Recursos/paso4.png">	
+        </div>
+
+        <!-- Solucionar Problemas, no se ven las imagenes siguientes -->
+        <div class="slide_img" id="five">
+                <img src="./Recursos/paso5.png">	
+        </div>
+        
+        <div class="slide_img" id="six">
+                <img src="./Recursos/paso6.png">	
+        </div>
+    
+        <div id="nav_slide">
+            <label for="i1" class="dots" id="dot1"></label>
+            <label for="i2" class="dots" id="dot2"></label>
+            <label for="i3" class="dots" id="dot3"></label>
+            <label for="i4" class="dots" id="dot4"></label>
+            <!-- <label for="i5" class="dots" id="dot5"></label>
+            <label for="i6" class="dots" id="dot6"></label> -->
+        </div>
+            
+    </div>
     
     <footer class="footer">
         <div>
