@@ -108,6 +108,7 @@ html .aside, body .aside {
 }
 
 html .aside .texto-principal, html .aside .parrafo, html .aside .parrafo2, html .aside .parrafo3, html .aside .parrafo4, body .aside .texto-principal, body .aside .parrafo, body .aside .parrafo2, body .aside .parrafo3, body .aside .parrafo4 {
+  margin-top: 20px;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 32px;
@@ -118,6 +119,7 @@ html .aside .texto-principal, html .aside .parrafo, html .aside .parrafo2, html 
 }
 
 html .aside .parrafo, html .aside .parrafo2, html .aside .parrafo3, html .aside .parrafo4, body .aside .parrafo, body .aside .parrafo2, body .aside .parrafo3, body .aside .parrafo4 {
+  margin-left: 20px;
   font-size: medium;
   text-shadow: none;
 }
@@ -164,21 +166,43 @@ html .aside .button-aside:hover, body .aside .button-aside:hover {
     width: 100%;
   }
   html .aside .texto-principal, html .aside .parrafo, html .aside .parrafo2, html .aside .parrafo3, html .aside .parrafo4, body .aside .texto-principal, body .aside .parrafo, body .aside .parrafo2, body .aside .parrafo3, body .aside .parrafo4 {
-    font-size: 15px;
+    font-size: 25px;
+  }
+  html .aside .parrafo, html .aside .parrafo2, html .aside .parrafo3, html .aside .parrafo4, body .aside .parrafo, body .aside .parrafo2, body .aside .parrafo3, body .aside .parrafo4 {
+    font-size: 12px;
+    margin: 10px 10px;
   }
   html .aside .parrafo2, body .aside .parrafo2 {
-    font-size: 10px;
-    margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+    margin: 10px 10px;
   }
   html .aside .parrafo3, html .aside .parrafo4, body .aside .parrafo3, body .aside .parrafo4 {
-    font-size: 10px;
+    margin-top: 50px;
+    font-size: 15px;
     text-align: center;
     text-justify: center;
+  }
+  html .aside .parrafo4, body .aside .parrafo4 {
     margin: 0;
   }
   html .aside .button-aside, body .aside .button-aside {
-    width: 100;
-    height: 50;
+    margin: 50px 50px 50px;
+    background: #EE7C41;
+    color: white;
+    width: 150px;
+    height: 30px;
+    border: 3px solid #EE7C41;
+    font-size: 16px;
+    border-radius: 5px;
+    -webkit-transition: .6s;
+    transition: .6s;
+    overflow: hidden;
+  }
+  html .aside .button-aside:hover, body .aside .button-aside:hover {
+    background: #EE7C41;
+    cursor: pointer;
   }
 }
 
