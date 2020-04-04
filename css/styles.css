@@ -432,28 +432,16 @@ html .ilustracion-home-tablet, body .ilustracion-home-tablet {
   background: #EE7C41;
 }
 
-@media screen and (max-width: 685px) {
+@media screen and (max-width: 768px) {
   .container {
     border: none;
     width: 100%;
     height: 0;
     padding-bottom: 55%;
   }
-  .container .slide_img .prev, .container .slide_img .next {
-    width: 15%;
-  }
-  .container .slide_img .prev span, .container .slide_img .next span {
-    border: solid 12px;
-  }
-  .container .slide_img .prev span {
-    border-color: transparent #fff transparent transparent;
-  }
-  .container .slide_img .next span {
-    border-color: transparent transparent transparent #fff;
-  }
   .container #nav_slide .dots {
-    width: 12px;
-    height: 12px;
+    width: 8px;
+    height: 8px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
