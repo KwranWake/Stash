@@ -375,35 +375,4 @@ html .ilustracionhome, body .ilustracionhome {
     height: 12px;
   }
 }
-
-.yt {
-  margin: 0 auto;
-  margin-top: 30px;
-  width: 80px;
-  height: 40px;
-  border-radius: 4px;
-  text-align: center;
-  background: #2196F3;
-  -webkit-box-shadow: 0 11px 22px rgba(0, 0, 0, 0.2), 0 7px 7px rgba(0, 0, 0, 0.24);
-          box-shadow: 0 11px 22px rgba(0, 0, 0, 0.2), 0 7px 7px rgba(0, 0, 0, 0.24);
-  -webkit-transition: .4s;
-  transition: .4s;
-  opacity: .4;
-}
-
-.yt a {
-  position: relative;
-  text-decoration: none;
-  color: #fff;
-  font-size: 23px;
-  top: 4px;
-}
-
-.yt:hover {
-  -webkit-transition: .3s;
-  transition: .3s;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  opacity: 0.8;
-}
 /*# sourceMappingURL=styles.css.map */
