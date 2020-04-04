@@ -110,7 +110,7 @@ html .aside, body .aside {
 html .aside .textoprincipal, html .aside .parrafo, html .aside .parrafo2, html .aside .parrafo3, html .aside .parrafo4, body .aside .textoprincipal, body .aside .parrafo, body .aside .parrafo2, body .aside .parrafo3, body .aside .parrafo4 {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: xx-large;
+  font-size: 32px;
   margin-left: 20px;
   text-align: center;
   margin-right: 20px;
@@ -148,6 +148,38 @@ html .aside .button-aside, body .aside .button-aside {
 html .aside .button-aside:hover, body .aside .button-aside:hover {
   background: #EE7C41;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  html .aside, body .aside {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  html .aside .textoprincipal, html .aside .parrafo, html .aside .parrafo2, html .aside .parrafo3, html .aside .parrafo4, body .aside .textoprincipal, body .aside .parrafo, body .aside .parrafo2, body .aside .parrafo3, body .aside .parrafo4 {
+    font-size: 15px;
+  }
+  html .aside .parrafo2, body .aside .parrafo2 {
+    font-size: 10px;
+    margin: 0;
+  }
+  html .aside .parrafo3, html .aside .parrafo4, body .aside .parrafo3, body .aside .parrafo4 {
+    font-size: 10px;
+    text-align: center;
+    text-justify: center;
+    margin: 0;
+  }
+  html .aside .button-aside, body .aside .button-aside {
+    width: 100;
+    height: 50;
+  }
 }
 
 html, body {
@@ -248,7 +280,7 @@ html header .barnav .button-barnav2, body header .barnav .button-barnav2 {
   background-color: #EE7C41;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   html header, body header {
     background-color: #2C5F7E;
   }
