@@ -2,8 +2,20 @@ html, body
     margin: 0
     padding: 0
 
-    .ilustracionhome
+    .ilustracion-home
         margin: 0
         height: 633px
         width: 100%
-    //ilustracion presenta borde blanco en bot, modificar        
+    .ilustracion-home-tablet
+        display: none
+    //ilustracion presenta borde blanco en bot, modificar      
+        
+    @media only screen and ( max-width: 768px )
+        .section
+            .ilustracion-home
+                display: none
+            .ilustracion-home-tablet
+                display: block
+                height: 633px
+                width: 100%
+            
