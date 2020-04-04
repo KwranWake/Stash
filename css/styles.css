@@ -83,6 +83,13 @@
   background-color: #EE7C41;
 }
 
+@media only screen and (max-width: 768px) {
+  .overlay.active .popup {
+    width: 300px;
+    background-size: 300px 520px;
+  }
+}
+
 html, body {
   margin: 0;
   padding: 0;
